@@ -1,0 +1,61 @@
+body {
+  background-color: #e0d3d3;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.catsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.catWrapper {
+  border: 5px solid #b5a9a9;
+  border-radius: 45%;
+  overflow: hidden;
+  margin: 0; /* Убираем отступы вокруг контейнера изображения */
+}
+.catImage {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+}
+.textContainer {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #b5a9a9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.textContainer:hover {
+  transform: scale(1.05);
+}
+.textCatInfo {
+  font-size: medium;
+  font-family: "Lucida Sans", sans-serif;
+  color: #746e6e;
+  text-align: center;
+  margin: 0;
+}
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #a290a5;
+  color: rgb(52, 48, 48);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+button:hover {
+  background-color: #6d5470;
+  transform: scale(1.05);
+}
+button:active {
+  transform: scale(0.95);
+}
