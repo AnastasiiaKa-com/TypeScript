@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import MyButton from "../myButton/MyButton";
-import './FetchFox.css'
+import styles from './FetchFox.module.css'
 import Loader from "../loader/Loader";
 interface IFoxData{
   image:string
@@ -47,7 +47,7 @@ export default function FetchFox(): JSX.Element {
       {/* если false - показываем картинку лисы и кнопку */}
       {isLoading ? <Loader/> : (
         <>
-          <div className="fox-wrapper">
+          <div className={styles.foxWrapper}>
             <img src={foxImg} alt="" />
           </div>
           <MyButton func={handleGetFox} text="get new fox" />

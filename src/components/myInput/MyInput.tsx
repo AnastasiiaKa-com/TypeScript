@@ -1,4 +1,4 @@
-import './myInput.css'
+import styles from './MyInput.module.css'
 
 interface IMyInputProps {
   name: string
@@ -11,7 +11,7 @@ export default function MyInput({name, type, placeholder, label}:IMyInputProps):
   return (
     <>
       <label>{label}</label>
-      <input className="myInput" placeholder={placeholder} name={name} type={type} />
+      <input className={styles.myInput} placeholder={placeholder} name={name} type={type} />
     </>
   );
 }

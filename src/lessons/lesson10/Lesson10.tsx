@@ -46,7 +46,7 @@ export default function Lesson10(): JSX.Element {
     setTimeout(() => {
       fetchCatImage(); // Получаем новое изображение
       fetchTextCat();// Получаем новый факт
-    }, 1500);// Задержка в 1.5 секунды
+    }, 1000);
   };
 
   // Эффект для первоначальной загрузки
@@ -59,7 +59,7 @@ export default function Lesson10(): JSX.Element {
     fetchTextCat();
   };
   return (
-    <div className={styles.catsWrapper}>
+    <div >
       {isLoading ? (// Проверяем, загружаются ли данные
         <Loader /> // Показываем индикатор загрузки
       ) : (
