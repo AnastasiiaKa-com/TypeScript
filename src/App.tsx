@@ -20,6 +20,7 @@ import Homework01 from "./homeworks/homework01/Homework01";
 import Homework02 from "./homeworks/homework02/Homework02";
 import Homework03 from "./homeworks/homework03/Homework";
 import Homework04 from "./homeworks/homework04/Homework04";
+import GenderForm from "./components/genderForm/GenderForm";
 
 
 function App() {
@@ -48,7 +49,7 @@ function App() {
        <Route path="/src/homeworks/homework02" element={<Homework02/>}/>
        <Route path="/src/homeworks/homework03" element={<Homework03/>}/>
        <Route path="/src/homeworks/homework04" element={<Homework04/>}/>
-       
+       <Route path="gender-form" element={<GenderForm/>}/>
 
          <Route path="*" element={<NoPage/>}/> 
        </Route>

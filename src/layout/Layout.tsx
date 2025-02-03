@@ -9,6 +9,7 @@ export default function Layout() {
        
         <NavLink className={({isActive}) =>(isActive ? styles.linkActive : '')}  to={"/"}>Lessons</NavLink>
         <NavLink className={({isActive}) =>(isActive ? styles.linkActive : '')}  to={"/homeworks"}>Homeworks</NavLink>
+        <NavLink className={({isActive}) =>(isActive ? styles.linkActive : '')}  to={"gender-form"}>gender form</NavLink>
         
        
        
