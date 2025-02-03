@@ -21,6 +21,7 @@ import Homework02 from "./homeworks/homework02/Homework02";
 import Homework03 from "./homeworks/homework03/Homework";
 import Homework04 from "./homeworks/homework04/Homework04";
 import GenderForm from "./components/genderForm/GenderForm";
+import Lesson13 from "./lessons/lesson13/Lesson13";
 
 
 function App() {
@@ -42,7 +43,9 @@ function App() {
        <Route path="lesson-8" element={<Lesson08/>}/>
        <Route path="lesson-9" element={<Lesson09/>}/>
        <Route path="lesson-10" element={<Lesson10/>}/>
+
        <Route path="lesson-11" element={<Lesson11/>}/>
+       <Route path="lesson-13" element={<Lesson13/>}/>
 
        <Route path="/homeworks" element={<HomeworksPage/>}/>
        <Route path="/src/homeworks/homework01" element={<Homework01/>}/>
