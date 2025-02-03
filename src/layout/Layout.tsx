@@ -7,8 +7,8 @@ export default function Layout() {
       
       <header className={styles.header}>
        
-        <NavLink className={({isActive}) =>(isActive ? styles.linkActive : '')}  to={"/"}>Home Page</NavLink>
-        <NavLink className={({isActive}) =>(isActive ? styles.linkActive : '')}  to={"/"}></NavLink>
+        <NavLink className={({isActive}) =>(isActive ? styles.linkActive : '')}  to={"/"}>Lessons</NavLink>
+        <NavLink className={({isActive}) =>(isActive ? styles.linkActive : '')}  to={"/homeworks"}>Homeworks</NavLink>
         
        
        

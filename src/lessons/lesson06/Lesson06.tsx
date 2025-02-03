@@ -1,4 +1,4 @@
-import React from 'react'
+
 import  Counter  from '../../components/Counter/Counter.1'
 
 export default function Lesson06() {

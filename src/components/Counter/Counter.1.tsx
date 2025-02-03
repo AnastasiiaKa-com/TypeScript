@@ -15,8 +15,9 @@ function handleMinus(): void {
 
 return(
     <div>
-        <h1>Добавление денег</h1>
-        <img className={style.image} src="https://www.zastavki.com/pictures/originals/2020Finance_Wallpapers___Money_Lot_of_euro_bills_close_up_145693_.jpg" alt="" />
+        <h1> ➕Добавление денег ➖</h1>
+        <div><img className={style.image} src="https://www.zastavki.com/pictures/originals/2020Finance_Wallpapers___Money_Lot_of_euro_bills_close_up_145693_.jpg" alt="" /></div>
+        
         <div className={style.container}>
         <button className={style.btn} type="button" onClick={handleMinus}>Убрать деньги</button>
         <span className={style.span_counter}>{counter}EURO</span>

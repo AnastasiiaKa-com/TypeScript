@@ -1,10 +1,10 @@
 import reactImg from '../../assets/3d-rendering-cute-cartoon-girl-blue-dress-street_1142-43545.avif'
-import '../homework01/Homework01.css'
+import style from './Homework01.module.css'
 
 function Homework01() {
   return (
     <div>
-    <div className='card'>
+    <div className={style.card}>
         <img src={reactImg}  alt="react- img" />
         </div>
        <div className='text-container'>

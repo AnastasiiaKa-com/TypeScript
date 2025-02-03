@@ -8,6 +8,9 @@
 
 
 }
+.homeworksContainer {
+    width: 100%;
+  }
 .gridContainer div {
     display: flex;
     align-items: center;
